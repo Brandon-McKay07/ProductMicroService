@@ -14,7 +14,7 @@ public class Product {
 	private String pname;
 	private float price;
 	private String url;
-	
+	private int cid;
 	
 	
 	
@@ -49,11 +49,23 @@ public class Product {
 		this.url = url;
 	}
 
+	
+	public int getCid() {
+		return cid;
+	}
+
+
+	public void setCid(int cid) {
+		this.cid = cid;
+	}
 
 	@Override
 	public String toString() {
 		return "Product [pid=" + pid + ", pname=" + pname + ", price=" + price + ", url=" + url + "]";
 	}
+
+
+	
 	
 	
 	
